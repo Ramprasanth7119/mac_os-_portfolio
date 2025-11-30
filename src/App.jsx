@@ -7,6 +7,7 @@ import Finder from "#windows/Finder";
 import Text from "#windows/Text";
 import ImageWindow from "#windows/ImageWindow";
 import Contact from "#windows/Contact"
+import Home from "#components/Home";
 
 import gsap from "gsap";
 import { Draggable } from "gsap/Draggable"
@@ -26,6 +27,7 @@ const App = () => {
       <Text />
       <ImageWindow />
       <Contact />
+      <Home />
     </main>
   )
 }
