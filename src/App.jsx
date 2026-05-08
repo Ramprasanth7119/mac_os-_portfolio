@@ -2,11 +2,11 @@ import Navbar from "#components/Navbar"
 import Welcome from "#components/Welcome"
 import Dock from "#components/Dock"
 import Terminal from "#windows"
-import Safari from "#windows/Safari";
 import Finder from "#windows/Finder";
 import Text from "#windows/Text";
-import ImageWindow from "#windows/ImageWindow";
 import Contact from "#windows/Contact"
+import Trash from "#windows/Trash";
+import SystemMonitor from "#windows/SystemMonitor";
 import Home from "#components/Home";
 
 import gsap from "gsap";
@@ -21,11 +21,11 @@ const App = () => {
       <Welcome></Welcome>
       <Dock />
       <Terminal/>
-      <Safari />
       <Resume />
       <Finder />
+      <SystemMonitor />
+      <Trash />
       <Text />
-      <ImageWindow />
       <Contact />
       <Home />
     </main>
